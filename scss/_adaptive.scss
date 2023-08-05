@@ -1,0 +1,284 @@
+@media (max-width: 1916px) and (min-width: 744px) {
+	.review {
+		height: auto;
+		width: 744px;
+		overflow: hidden;
+		&__content {
+			margin: 0;
+			padding: 35px 0px 0 148px;
+			max-height: 265px;
+			min-height: 265px;
+		}
+		&__slider {
+			&-wrap {
+				max-height: 265px;
+			}
+		}
+	}
+
+	.bg-1,
+	.bg-5 {
+		display: none;
+	}
+	.bg-4 {
+		display: none;
+		&-p {
+			position: absolute;
+			top: -4px;
+			display: inline;
+			height: 269px;
+			width: 451px;
+		}
+	}
+
+	.bg-lines {
+		display: none;
+		&-p {
+			display: inline;
+			position: absolute;
+		}
+	}
+	.subtitle {
+		font-size: 16px;
+	}
+	.title {
+		font-size: 32px;
+		span {
+			font-size: 32px;
+		}
+	}
+	.text {
+		font-size: 12px;
+		width: 501px;
+		height: 72.945px;
+		margin: 8px 0 0 -1px;
+	}
+	.btns {
+		// .btns__btn-order
+		width: 501px;
+		margin: 11px 0 0 -1px;
+
+		&__btn-order {
+			width: 172px;
+			height: 46px;
+		}
+
+		// .btns__btn-more
+
+		&__btn-more {
+			color: #a30040;
+			font-family: Inter;
+			font-size: 14px;
+			font-style: normal;
+			font-weight: 600;
+			line-height: 19.2px; /* 137.143% */
+			height: 46px;
+			width: 172px;
+		}
+	}
+
+	.slide-1 {
+		&__text-1 {
+			left: 3px;
+			top: 23px;
+		}
+		&__text-2 {
+			right: 218px;
+			top: 58px;
+		}
+	}
+	.text-1 {
+		&__text {
+			margin: 12px 0 0px -4px;
+			ul {
+				gap: 9px;
+			}
+		}
+	}
+	.text-2 {
+		&__text {
+			ul {
+				gap: 16px;
+				margin: 16px 0 0 23px;
+				width: 294px;
+			}
+		}
+	}
+	.currentprice {
+		margin: 0px -13px 0 0;
+	}
+	.plate {
+		width: 149px;
+		height: 248px;
+		left: 310px;
+		top: 15px;
+	}
+
+	.offer {
+		position: absolute;
+		right: 0;
+		z-index: 3;
+		width: 212px;
+		height: 41px;
+		span {
+			font-size: 16px;
+			letter-spacing: 0.8px;
+			margin: -2px 0 0 -52px;
+		}
+	}
+}
+@media (max-width: 744px) {
+	.review {
+		height: auto;
+		max-width: 360px;
+		overflow: hidden;
+		&__content {
+			margin: 0;
+			padding: 31px 0px 0 13px;
+			max-height: 265px;
+			min-height: 265px;
+		}
+		&__slider {
+			&-wrap {
+				max-height: 265px;
+			}
+		}
+	}
+
+	.bg-1,
+	.bg-5,
+	.offer__bg {
+		display: none;
+	}
+	.offer__bg-m {
+		display: inline;
+	}
+	.bg-4 {
+		display: none;
+		&-m {
+			display: inline;
+			position: absolute;
+			top: -6px;
+			height: 270px;
+		}
+	}
+
+	.bg-lines {
+		display: none;
+		&-m {
+			display: inline;
+			position: absolute;
+		}
+	}
+	.subtitle {
+		font-size: 16px;
+	}
+	.title {
+		font-size: 32px;
+		span {
+			font-size: 32px;
+		}
+	}
+	.text {
+		font-size: 12px;
+		width: 337px;
+		height: 72.945px;
+		margin: 8px 0 0 -1px;
+	}
+	.btns {
+		// .btns__btn-order
+		width: 337px;
+		margin: 11px 0 0 -1px;
+
+		&__btn-order {
+			width: 157px;
+			height: 42px;
+			margin: 21px 15px 0 1px;
+			font-size: 12px;
+			padding: 2px 0 0 9px;
+		}
+
+		// .btns__btn-more
+
+		&__btn-more {
+			color: #a30040;
+			font-family: Inter;
+			font-style: normal;
+			font-weight: 600;
+			line-height: 19.2px; /* 137.143% */
+			width: 157px;
+			height: 42px;
+			font-size: 12px;
+		}
+	}
+
+	.slide-1 {
+		&__text-1 {
+			left: -45px;
+			top: 54px;
+		}
+		&__text-2 {
+			display: none;
+			right: 218px;
+			top: 58px;
+		}
+	}
+	.text-1 {
+		&__subtitle {
+			font-size: 12px;
+			line-height: 12.8px; /* 106.667% */
+		}
+		&__title {
+			font-size: 20px;
+			line-height: 25.6px; /* 128% */
+			margin: 0;
+		}
+		&__text {
+			margin: 11px 0 0px 0px;
+			font-size: 11.8px;
+			line-height: 10px; /* 84.746% */
+			ul {
+				gap: 11px;
+			}
+		}
+	}
+	.text-2 {
+		&__text {
+			ul {
+				gap: 16px;
+				margin: 16px 0 0 23px;
+				width: 294px;
+			}
+		}
+	}
+	.price {
+		font-size: 12px;
+		line-height: 24.96px; /* 208% */
+		margin: 9px 0 0 -12px;
+	}
+	.currentprice {
+		margin: -6px 2px 0 0;
+		font-size: 20px;
+		line-height: 38.4px; /* 192% */
+	}
+	.plate {
+		width: 115px;
+		height: 191px;
+		left: 214px;
+		top: 52px;
+	}
+
+	.offer {
+		position: absolute;
+		right: -21px;
+		top: -3px;
+		z-index: 3;
+		width: 212px;
+		height: 41px;
+		span {
+			font-size: 12px;
+			letter-spacing: 0.6px;
+			margin: -1px 0 0 -34px;
+		}
+	}
+}
